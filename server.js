@@ -225,8 +225,8 @@ app.post('/api/enquiry', async (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Panchhi Yatra server is live at http://localhost:${PORT}`);
+app.listen(PORT, (3000) => {
+  console.log(`Panchhi Yatra server is live at http://localhost:${3000}`);
 });
 // 
 // 
