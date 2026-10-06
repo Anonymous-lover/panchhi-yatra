@@ -197,7 +197,7 @@ app.post('/api/reviews', (req, res) => {
 
 // POST customer enquiry -> Forwards to Google Sheets Webhook
 // REPLACE THIS URL with your own Google Apps Script Web App URL!
-const GOOGLE_SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbzBLb7OkUty6xjZrr3fFoYyEY4os2xynlmOrn31W3jUhu6jl8eGjf-3EsJg3v9ONVywNQ/exec";
+const GOOGLE_SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbzBLb7OkUty6xjZrr3fFoYyEY4os2xynlmOrn31W3jUhu6jl8eGjf-3EsJg3v9ONVywNQ/exec"
 app.post('/api/enquiry', async (req, res) => {
   const enquiry = {
     ...req.body,
